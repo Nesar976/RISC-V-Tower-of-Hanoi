@@ -1,15 +1,22 @@
-# RISC-V-Tower-of-Hanoi
+# RISC-V Tower of Hanoi
 
 Simple C++ program to solve the Tower of Hanoi problem with ASCII output.
-g++ -std=c++17 -o hanoi hanoi.cpp
+
+## Build
+```bash
+g++ -std=c++17 hanoi.cpp -o hanoi
+```
+
+## Run
+```bash
 ./hanoi
-Output
+```
 
-* Shows initial state
-* Displays key moves
-* Prints total moves
+## Output
+- Shows initial state  
+- Displays key moves  
+- Prints total moves  
 
-Files
-
-* hanoi.cpp
-* output.txt
+## Files
+- hanoi.cpp  
+- output.txt  
